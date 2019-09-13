@@ -44,7 +44,7 @@ p.indent {
         Only apply this to class "nav"  - separate code for "leftbar"  */
     /* First, remove the bullets and the margins and padding from the menu ul list */
 ul.navbar{
-      font-size: 0.7rem;
+      font-size: 0.9rem;    /* def 0.7rem */
       list-style-type: none;         /* removes the bullets */
       overflow: hidden;              /*  hidden:if it goes off page - hide */
       background-color: #663399;     /* = rebeccapurple  */
@@ -293,7 +293,7 @@ img {
   background-color: dimgray; /*  darkolivegreen;  dimgray; darkslategray ; */
   color: white;
   padding: 10px;  /* 16px */
-  font-size: 12px;
+  font-size: 14px;
   border: none;
 }
 
